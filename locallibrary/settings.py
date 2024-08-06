@@ -41,7 +41,7 @@ SECRET_KEY = 'django-insecure-o$5@n5&%ub0vrx-b-bmbr7_m56c!1db10x(77q0&#=t6bb3anf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ThaoVy809.pythonanywhere.com', '127.0.0.1']
+ALLOWED_HOSTS = ['thaovy809.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
@@ -162,7 +162,7 @@ STATIC_ROOT = BASE_DIR / 'staticfiles'
 STATIC_URL = '/static/'
 ## For example, for a site URL is at 'web-production-3640.up.railway.app'
 ## (replace the string below with your own site URL):
-CSRF_TRUSTED_ORIGINS = ['https://ThaoVy809.pythonanywhere.com']
+CSRF_TRUSTED_ORIGINS = ['https://thaovy809.pythonanywhere.com']
 
 # During development/for this tutorial you can instead set just the base URL
 # CSRF_TRUSTED_ORIGINS = ['https://*.pythonanywhere.com']
